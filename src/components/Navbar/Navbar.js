@@ -1,12 +1,17 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="NavBarContainer">
+    <div className="navContainer">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+
       <ul className="menu">
-        <li>
+        <li className="first">
           <Link to="/">
             <h3> Serrano 360°</h3>
             <p>Fotografía de productos</p>
