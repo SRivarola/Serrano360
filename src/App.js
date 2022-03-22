@@ -13,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/" index element={<Home />} />
           <Route path="/fotos360" element={<Fotos360 />} />
           <Route path="/sobremi" element={<Sobremi />} />
