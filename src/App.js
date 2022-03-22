@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+import "./App.css";
+>>>>>>> santi
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Fotos360 from "./components/Fotos360/Fotos360";
@@ -13,6 +17,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/" index element={<Home />} />
           <Route path="/fotos360" element={<Fotos360 />} />
           <Route path="/sobremi" element={<Sobremi />} />
           <Route path="/comotrabajamos" element={<ComoTrabajamos />} />

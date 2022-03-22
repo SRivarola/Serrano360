@@ -1,6 +1,10 @@
 import React from "react";
-const Home = () => {
-  return <div></div>;
-};
+import Principal from "../../Pages/Principal/Principal";
 
-export default Home;
+export default function Home() {
+  return (
+    <>
+      <Principal />
+    </>
+  );
+}
