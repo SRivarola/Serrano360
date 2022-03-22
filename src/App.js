@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import "./App.css";
->>>>>>> santi
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Fotos360 from "./components/Fotos360/Fotos360";
