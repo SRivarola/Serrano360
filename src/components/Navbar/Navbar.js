@@ -14,7 +14,6 @@ const Navbar = () => {
         <li className="first">
           <Link to="/">
             <h3> Serrano 360°</h3>
-            <p>Fotografía de productos</p>
           </Link>
         </li>
         <li>
