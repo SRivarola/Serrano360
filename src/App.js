@@ -4,7 +4,7 @@ import Fotos360 from "./Pages/Fotos360/Fotos360";
 import Sobremi from "./Pages/Sobremi/Sobremi";
 import ComoTrabajamos from "./Pages/ComoTrabajamos/ComoTrabajamos";
 import Contacto from "./Pages/Contacto/Contacto";
-import Home from "./components/Home/Home";
+import Home from "./Pages/Home/Home";
 import Principal from "./Pages/Principal/Principal";
 
 function App() {
