@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Lato;
+  src: url(./assets/fuentes/Lato/Lato-Regular.ttf); 
+}
+
+body {
+  margin: 0;
+  font-family: Lato;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Lato;
+}
+li {
+  list-style: none;
+}
+
+.container{
+  width: 64%;
+  height: auto;
+  margin: 0 auto;
+  background-color:#fff;
+  border-radius: 15px;
+  position: relative;
+  margin-top: 200px;
+  box-shadow: 2px 2px 5px rgb(124, 124, 124);
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  h1, h2, p, ul {
+      padding-left: 70px;
+      padding-right: 70px;
+      text-align: justify;
+  }
+  h1{
+      padding-top: 60px;
+      padding-bottom: 30px;
+      z-index: 5;
+  }
+  .subrayado{
+      width: 230px;
+      height: 18px;
+      background-color: #EFE9E1;
+      margin-top: -68px;
+      z-index: 0;
+  } }

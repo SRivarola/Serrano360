@@ -1,4 +1,5 @@
 import './Fotos360.scss'
+import '../../index.scss'
 import React from 'react'
 import img1 from '../../assets/fotos360/lampara.jpg'
 import img2 from '../../assets/fotos360/florero antiguo.gif'
@@ -6,7 +7,7 @@ import img3 from '../../assets/fotos360/collar.jpg'
 
 export default function Fotos360() {
   return (
-    <div className='fotos360'>
+    <div className='container'>
       <h1>Fotos 360°</h1>
       <span className='subrayado'></span>
       <p>Para crear las fotografías en 360°, las mismas son tomadas desde varios ángulos con una buena iluminación, el fondo puede ser del color que prefieras. Y para hacerlas interactivas, la animación es de 360°.  La idea es buscar a la perfección las cualidades y características del objeto fotografiado.</p>
