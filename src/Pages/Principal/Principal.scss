@@ -1,20 +1,16 @@
 .container{
     width: 100%;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding-top: 93px;
-    position: absolute;
-=======
     padding-top: 90px;
->>>>>>> 5593181cafd048d5f61d61a14658c544140ca467
+    position: fixed;
+    top: 0;
 }
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
-    background-color: #000;
+  background-color: #000;
     img{
-        position: relative;
+     
         width: 100%;
         opacity: 0.8;
     }
