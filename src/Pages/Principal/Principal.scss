@@ -1,7 +1,7 @@
 .containerBackground{
     width: 100%;
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 88px;
     position: fixed;
     top: 0;
 }
@@ -12,5 +12,111 @@
     img{
         width: 100%;
         opacity: 0.8;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerBackground{
+        padding-top: 0px;
+        background-color: #000;
+        height: 800px;
+    }
+    .grid{
+        display: flex;
+        width: 100%;
+        img{
+            position: absolute;
+            opacity: 0.8;
+        }
+        .img1{
+            width: 100vw;     
+            animation-duration: 28s;
+            animation-name: imagen1;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .img2{
+            width: 100vw;
+            animation-duration: 28s;
+            animation-name: imagen2;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .img3{
+            width: 100vw;
+            animation-duration: 28s;
+            animation-name: imagen3;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes imagen1 {
+            0% {
+                opacity: 0.8;
+            }
+            27% {
+                opacity: 0.8;
+            }
+            33%{
+                opacity: 0;
+            }
+            60%{
+                opacity: 0;
+            }
+            66% {
+                opacity: 0;
+            }
+            94%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 0.8;
+            }
+        }
+        @keyframes imagen2 {
+            0% {
+                opacity: 0;
+            }
+            27% {
+                opacity: 0;
+            }
+            33% {
+                opacity: 0.8;
+            }
+            60% {
+                opacity: 0.8;
+            }
+            66% {
+                opacity: 0;
+            }
+            94% {
+                opacity: 0;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes imagen3 {
+            0% {
+                opacity: 0;
+            }
+            27% {
+                opacity: 0;
+            }
+            33%{
+                opacity: 0;
+            }
+            60% {
+                opacity: 0;
+            }
+            66% {
+                opacity: 0.8;
+            }
+            94% {
+                opacity: 0.8;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
     }
 }
