@@ -1,17 +1,14 @@
 import React from "react";
 import './ComoTrabajamos.scss'
-import Principal from '.././Principal/Principal'
+import '../../index.scss'
 import {Icon} from '@iconify/react'
 
 const ComoTrabajamos = () => {
   return (
-    <div>
-      <div className="background">
-      <Principal />
-      </div>
-    <div className="trabajamosContainer">
-      <h2>Como trabajo</h2>
-      <h3>Nos gustaría que trabajar con nosotros sea una buena experiencia para vos</h3>
+   
+    <div className="container">
+      <h1>Como trabajo</h1>
+      <h2>Nos gustaría que trabajar con nosotros sea una buena experiencia para vos</h2>
       <p>Porque además de sacar fotos profesionales, también pensamos en tu comodidad y en proteger tu mercancía,  ya que vamos a tu empresa, local, showroom ¡donde quiera que esté! De esta manera no necesitas mover tus productos.</p>
       <ul>
         <li> <Icon icon='system-uicons:contacts'/> Se contacta con nosotros por cualquiera de estos medios (whatsapp, mail, Instagram). Nos cuenta sobre el tipo de servicio que necesita su empresa y nos deja sus datos.</li>
@@ -23,7 +20,8 @@ const ComoTrabajamos = () => {
           ¡Estamos creando tus fotos!</li>
         <li><Icon icon='bi:sun'/>Entrega del trabajo y pago del 50% restante.</li>
       </ul>
-    </div></div>)
-};
+    </div>
+    )  }
+
 
 export default ComoTrabajamos;

@@ -7,7 +7,7 @@ import img3 from '../../assets/img3b.jpeg'
 export default function Principal() {
   return (
     <section className='fixed'>
-    <div className='container grid'>
+    <div className='containerBackground grid'>
         <img src={img1} alt='foto de portada'/>
         <img src={img2} alt='foto de portada'/>
         <img src={img3} alt='foto de portada'/>
