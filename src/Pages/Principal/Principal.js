@@ -8,9 +8,9 @@ export default function Principal() {
   return (
     <section className='fixed'>
     <div className='containerBackground grid'>
-        <img src={img1} alt='foto de portada'/>
-        <img src={img2} alt='foto de portada'/>
-        <img src={img3} alt='foto de portada'/>
+        <img className='img1' src={img1} alt='foto de portada'/>
+        <img className='img2' src={img2} alt='foto de portada'/>
+        <img className='img3' src={img3} alt='foto de portada'/>
     </div>
     </section>
   )
