@@ -14,12 +14,11 @@ const Navbar = () => {
       <ul className="menu">
         <li className="first">
           <Link to="/">
-            <h3> Serrano 360°</h3>
-            <p>Fotografía de productos</p>
+            <h3> SERRANO 360°</h3>
           </Link>
         </li>
         <li>
-          <Link to="/fotos360">Fotos 360</Link>
+          <Link to="/fotos360">Fotos 360°</Link>
         </li>
         <li>
           <Link to="/sobremi">Sobre Mi</Link>
