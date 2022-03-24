@@ -1,13 +1,5 @@
 .gridFotos{
     width: 90%;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    img{
-        width: 60%;
-        margin: 0 auto;
-        border-radius: 10px;
-    }
+    border-radius: 10px;
 }

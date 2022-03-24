@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: Lato;
   src: url(./assets/fuentes/Lato/Lato-Regular.ttf); 
@@ -24,11 +30,11 @@ li {
   background-color:#fff;
   border-radius: 15px;
   position: relative;
-  margin-top: 200px;
+  margin-top: 150px;
   box-shadow: 2px 2px 5px rgb(124, 124, 124);
   padding-bottom: 30px;
   margin-bottom: 10px;
-  h1, h2, p, ul {
+  h1, h2, p {
       padding-left: 70px;
       padding-right: 70px;
       text-align: justify;

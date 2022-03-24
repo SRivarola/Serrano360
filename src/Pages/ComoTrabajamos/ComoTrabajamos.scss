@@ -1,0 +1,55 @@
+.icon {
+    color: #D27F67;
+    font-size: 25px;
+    width: 80px;
+
+}
+
+.listContainer {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.listIcons {
+    li {
+        padding: 5px 0;
+        
+    }
+    li:nth-child(1) {
+        padding-bottom: 30px;
+    }
+    li:nth-child(4) {
+        padding-bottom: 14px;
+    }
+}
+
+.listText {
+    width: 60%;
+    align-self: initial;
+    padding: 0;
+    li {
+        padding-bottom: 10px;
+        p {
+            padding: 0;
+            padding-bottom: 2px;
+        }
+        p:nth-child(1) {
+            padding-bottom: 5px;
+        }
+    }
+}
+
+.trabajamosPresentacion {
+    width: 100%;
+
+    h2 {
+        font-size: 22px;
+        font-weight: 100;
+        padding-bottom: 15px;
+    }
+}
+
+.containerPresentacion {
+    padding-left: 70px;
+}
