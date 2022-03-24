@@ -1,5 +1,5 @@
 .navContainer {
-  width: 40vw;
+  width: 100%;
   display: block;
   position: relative;
   top: 20px;
@@ -82,10 +82,14 @@
       padding: 10px 0;
       font-size: 22px;
       &:hover {
-        color: grey;
+        color: rgb(116, 115, 115);
       }
       &:focus {
         color: grey;
+        color: rgb(110, 110, 110);
+      }
+      &:focus {
+        color: rgb(150, 150, 150);
       }
       h3 {
         margin-bottom: 0;

@@ -1,10 +1,9 @@
-import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Fotos360 from "./components/Fotos360/Fotos360";
-import Sobremi from "./components/Sobremi/Sobremi";
-import ComoTrabajamos from "./components/ComoTrabajamos/ComoTrabajamos";
-import Contacto from "./components/Contacto/Contacto";
+import Fotos360 from "./Pages/Fotos360/Fotos360";
+import Sobremi from "./Pages/Sobremi/Sobremi";
+import ComoTrabajamos from "./Pages/ComoTrabajamos/ComoTrabajamos";
+import Contacto from "./Pages/Contacto/Contacto";
 import Home from "./components/Home/Home";
 import Principal from "./Pages/Principal/Principal";
 
