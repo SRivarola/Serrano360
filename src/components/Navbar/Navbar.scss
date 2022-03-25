@@ -162,9 +162,12 @@
     }
   }
   .backgroundNavbar {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba($color: #000000, $alpha: 0.3);
-    transform: translate(-120%, 0);
+    @media screen and (max-width:768px) {
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      transform: translate(-120%, 0);
+      
+    }
   }
 }
