@@ -9,36 +9,17 @@
     margin-top: 30px;
     margin-left: 50px;
     display: flex;
-}
-
-.listIcons {
-    li {
-        padding: 5px 0;
-        
+    tbody {
+        width: 88%;
     }
-    li:nth-child(1) {
-        padding-bottom: 30px;
+    td p {
+        padding-left:0px;
     }
-    li:nth-child(4) {
-        padding-bottom: 14px;
+    @media screen and (max-width:768px) {
+        margin-left:0;
     }
 }
 
-.listText {
-    width: 60%;
-    align-self: initial;
-    padding: 0;
-    li {
-        padding-bottom: 10px;
-        p {
-            padding: 0;
-            padding-bottom: 2px;
-        }
-        p:nth-child(1) {
-            padding-bottom: 5px;
-        }
-    }
-}
 
 .trabajamosPresentacion {
     width: 100%;
@@ -52,4 +33,11 @@
 
 .containerPresentacion {
     padding-left: 70px;
+    @media screen and (max-width:768px){
+        padding-left: 10px;
+    }
+}
+
+td p {
+    padding-left:0px;
 }
