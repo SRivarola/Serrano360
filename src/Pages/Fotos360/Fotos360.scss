@@ -11,3 +11,99 @@
         border-radius: 10px;
     }
 }
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+button{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid #D27F67;
+    border-radius: 10px;
+    color: #D27F67;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: Lato-Light;
+}
+.verMas{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    z-index: 90;
+    position: relative;
+    margin-top: 87px;
+    .gridVerMas{
+        display: grid;
+        height: auto;
+    }
+    .grid1{
+        grid-template-columns: 1fr 1fr 1fr;
+        img{
+            width: 65%;
+        }
+        .yoda{
+            margin-top: 120px !important;
+            margin: 0 auto;
+        }
+        .corona{
+            margin-top: 40px;
+            display: flex;
+            justify-self: right;
+        }
+    }
+    .grid2{
+        grid-template-columns: 1fr 1fr;
+        img{
+            width: 40%;
+        }
+        .parlante{
+            margin: 0 auto;
+        }
+    }
+    .grid3{
+        grid-template-columns: 1fr;
+        img{
+            width: 20%;
+            margin-left: 18%;
+        }
+    }
+    .grid4{
+        grid-template-columns: 1fr 1fr;
+        img{
+            width: 40%;
+        }
+        .anillo{
+            display: flex;
+            justify-self: right;
+            margin-top: -18%;
+        }
+    }
+    .grid5{
+        grid-template-columns: 1fr 1fr;
+        img{
+            width: 40%;
+        }
+        .juegoDeTe{
+            width: 50%;
+            margin-top: -18%;
+            margin-left: 10%;
+        }
+    }
+    .grid6{
+        grid-template-columns: 1fr 1fr;
+        img{
+            width: 40%;
+        }
+        .luna{
+            display: flex;
+            justify-self: right;
+            margin-top: 12%;
+        }
+        .perfume{
+            margin: 0 auto;
+        }
+    }
+}

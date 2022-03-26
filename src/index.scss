@@ -9,6 +9,11 @@
   src: url(./assets/fuentes/Lato/Lato-Regular.ttf); 
 }
 
+@font-face {
+  font-family: Lato-Light;
+  src: url(./assets/fuentes/Lato/Lato-Light.ttf); 
+}
+
 body {
   margin: 0;
   font-family: Lato;
@@ -35,9 +40,15 @@ li {
   padding-bottom: 30px;
   margin-bottom: 10px;
   h1, h2, p {
-      padding-left: 70px;
-      padding-right: 70px;
+      padding: 10px 70px;
       text-align: justify;
+      @media screen and (max-width:768px) {
+    
+      padding-right: 40px;
+      }
+  }
+  p{
+    font-family: Lato-Light;
   }
   h1{
       padding-top: 60px;
@@ -50,4 +61,17 @@ li {
       background-color: #EFE9E1;
       margin-top: -68px;
       z-index: 0;
-  } }
+  } 
+  @media screen and (max-width:768px) {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+    padding-left: 0;
+    h1 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}
