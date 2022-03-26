@@ -39,6 +39,10 @@ li {
   box-shadow: 2px 2px 5px rgb(124, 124, 124);
   padding-bottom: 30px;
   margin-bottom: 10px;
+  @media screen and (max-width:768px) {
+    width: 100%;
+    border-radius: none;
+    }
   h1, h2, p {
       padding: 10px 70px;
       text-align: justify;

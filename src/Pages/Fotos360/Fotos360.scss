@@ -5,6 +5,12 @@
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @media screen and (max-width:768px) {
+        grid-template-columns: 1fr;
+        .img1, .img3{
+            display: none;
+        }
+        }
     img{
         width: 60%;
         margin: 0 auto;
