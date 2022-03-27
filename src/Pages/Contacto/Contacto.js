@@ -3,7 +3,7 @@ import '../../index.scss'
 import './Contacto.scss'
 import '../ComoTrabajamos/ComoTrabajamos.scss'
 import { Icon } from '@iconify/react'
-import img1 from '../../assets/contacto/t_amarillas_single_1080x1080.gif'
+import img1 from '../../assets/contacto/te.gif'
 
 export default function Sobremi() {
   return (

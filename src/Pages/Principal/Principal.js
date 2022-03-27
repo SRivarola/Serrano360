@@ -1,8 +1,8 @@
 import './Principal.scss'
 import React from 'react'
-import img1 from '../../assets/img1b.jpeg'
-import img2 from '../../assets/img2b.jpeg'
-import img3 from '../../assets/img3b.jpeg'
+import img1 from '../../assets/principal/img1.jpg'
+import img2 from '../../assets/principal/img2.jpg'
+import img3 from '../../assets/principal/img3.jpg'
 
 export default function Principal() {
   return (
