@@ -1,0 +1,206 @@
+.gridFotos {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .gridFotos {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .gridFotos .img1, .gridFotos .img3 {
+    display: none;
+  }
+}
+
+.gridFotos img {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.btn-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+button {
+  background-color: transparent;
+  padding: 10px 30px;
+  border: 1px solid #D27F67;
+  border-radius: 10px;
+  color: #D27F67;
+  font-size: 24px;
+  cursor: pointer;
+  font-family: Lato-Light;
+  z-index: 999;
+}
+
+.verMas {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  z-index: 90;
+  position: relative;
+  margin-top: 87px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .verMas {
+    margin-top: 0;
+  }
+}
+
+.verMas .gridVerMas {
+  display: -ms-grid;
+  display: grid;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .verMas .grid2, .verMas .grid3, .verMas .grid4, .verMas .grid5, .verMas .grid6 {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .verMas .grid2 img, .verMas .grid3 img, .verMas .grid4 img, .verMas .grid5 img, .verMas .grid6 img {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+  .verMas .grid3 {
+    -ms-grid-rows: 430px !important;
+        grid-template-rows: 430px !important;
+  }
+  .verMas .grid3 img {
+    margin-top: -27% !important;
+  }
+}
+
+.verMas .grid1 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .verMas .grid1 {
+    padding-top: 87px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .verMas .grid1 img {
+    width: 90% !important;
+    margin: 0 auto !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+.verMas .grid1 img {
+  width: 65%;
+}
+
+.verMas .grid1 .yoda {
+  margin-top: 120px !important;
+  margin: 0 auto;
+}
+
+.verMas .grid1 .corona {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: right;
+}
+
+.verMas .grid2 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.verMas .grid2 img {
+  width: 40%;
+}
+
+.verMas .grid2 .parlante {
+  margin: 0 auto;
+}
+
+.verMas .grid3 {
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+  overflow-y: hidden;
+}
+
+.verMas .grid3 img {
+  width: 20%;
+  margin-left: 18%;
+  margin-top: -5%;
+}
+
+.verMas .grid4 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.verMas .grid4 img {
+  width: 40%;
+}
+
+.verMas .grid4 .anillo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: right;
+  margin-top: -18%;
+}
+
+.verMas .grid5 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.verMas .grid5 img {
+  width: 40%;
+}
+
+.verMas .grid5 .juegoDeTe {
+  width: 50%;
+  margin-top: -18%;
+  margin-left: 10%;
+}
+
+.verMas .grid6 {
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.verMas .grid6 img {
+  width: 40%;
+}
+
+.verMas .grid6 .luna {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: right;
+  margin-top: 12%;
+}
+
+.verMas .grid6 .perfume {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Fotos360.css.map */

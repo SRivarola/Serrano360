@@ -1,0 +1,226 @@
+.containerBackground {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 88px;
+  position: fixed;
+  top: 0;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  background-color: #000;
+}
+
+.grid img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.grid .img4, .grid .img5, .grid .img6 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .containerBackground {
+    padding-top: 0px;
+    background-color: #000;
+    height: 800px;
+  }
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .grid img {
+    position: absolute;
+    opacity: 0.8;
+  }
+  .grid .img1, .grid .img2, .grid .img3 {
+    display: none;
+  }
+  .grid .img4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-animation-duration: 25s;
+            animation-duration: 25s;
+    -webkit-animation-name: imagen1;
+            animation-name: imagen1;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  .grid .img5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-animation-duration: 25s;
+            animation-duration: 25s;
+    -webkit-animation-name: imagen2;
+            animation-name: imagen2;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  .grid .img6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-animation-duration: 25s;
+            animation-duration: 25s;
+    -webkit-animation-name: imagen3;
+            animation-name: imagen3;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+  }
+  @-webkit-keyframes imagen1 {
+    0% {
+      opacity: 0.8;
+    }
+    27% {
+      opacity: 0.8;
+    }
+    33% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    94% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+  @keyframes imagen1 {
+    0% {
+      opacity: 0.8;
+    }
+    27% {
+      opacity: 0.8;
+    }
+    33% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0;
+    }
+    94% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+  @-webkit-keyframes imagen2 {
+    0% {
+      opacity: 0;
+    }
+    27% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 0.8;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    66% {
+      opacity: 0;
+    }
+    94% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes imagen2 {
+    0% {
+      opacity: 0;
+    }
+    27% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 0.8;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    66% {
+      opacity: 0;
+    }
+    94% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes imagen3 {
+    0% {
+      opacity: 0;
+    }
+    27% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0.8;
+    }
+    94% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes imagen3 {
+    0% {
+      opacity: 0;
+    }
+    27% {
+      opacity: 0;
+    }
+    33% {
+      opacity: 0;
+    }
+    60% {
+      opacity: 0;
+    }
+    66% {
+      opacity: 0.8;
+    }
+    94% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+/*# sourceMappingURL=Principal.css.map */

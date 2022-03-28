@@ -9,8 +9,9 @@ const ComoTrabajamos = () => {
     <div className="container containerPresentacion">
       <div className="trabajamosPresentacion">
       <h1>Como trabajo</h1>
-      <h2>Nos gustaría que trabajar con nosotros sea una buena experiencia para vos</h2>
-      <p>Porque además de sacar fotos profesionales, también pensamos en tu comodidad y en <br></br> proteger tu mercancía,  ya que vamos a tu empresa, local, showroom ¡donde quiera que esté!<br></br>  De esta manera no necesitas mover tus productos.</p>
+      <span className='mt-1 pt-1 subrayado '></span>
+      <p className="presentacionParrafo">Nos gustaría que trabajar con nosotros sea una buena experiencia para vos
+      Porque además de sacar fotos profesionales, también pensamos en tu comodidad y en proteger tu mercancía,  ya que vamos a tu empresa, local, showroom ¡donde quiera que esté!<br></br>  De esta manera no necesitas mover tus productos.</p>
       </div>
       <div className="listContainer">
 

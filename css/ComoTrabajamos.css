@@ -1,0 +1,52 @@
+.icon {
+  color: #D27F67;
+  font-size: 25px;
+  width: 80px;
+}
+
+.listContainer {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.listContainer tbody {
+  width: 88%;
+}
+
+.listContainer td p {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .listContainer {
+    margin-left: 0;
+  }
+}
+
+.trabajamosPresentacion {
+  width: 100%;
+}
+
+.trabajamosPresentacion h2 {
+  font-size: 22px;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+
+.containerPresentacion {
+  padding-left: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .containerPresentacion {
+    padding-left: 10px;
+  }
+}
+
+td p {
+  padding-left: 0px;
+}
+/*# sourceMappingURL=ComoTrabajamos.css.map */

@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+$pink1:#EFE9E1;
+
 @font-face {
   font-family: Lato;
   src: url(./assets/fuentes/Lato/Lato-Regular.ttf); 
@@ -65,7 +67,7 @@ li {
       width: 230px;
       height: 18px;
       background-color: #EFE9E1;
-      margin-top: -45px;
+      margin-top: -35px;
       z-index: 0;
       position: absolute;
   } 
@@ -81,4 +83,11 @@ li {
       font-size: 18px;
     }
   }
+
 }
+
+  // BACKGROUND COLORS
+  .bgColor-1 {
+    background-color: $pink1;
+  }
+  

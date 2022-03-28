@@ -1,15 +1,18 @@
-import React, {useState} from "react";
+import React, {useRef} from "react";
+import "../../index.scss"
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 const Navbar = () => {
-  // const [inputMenu, setInputMenu] = useState(false);
+  
+  // const menuField = React.useRef(false)
+ 
 
-  // useEffect(() => {
-  //   const  modificateBackground = () => {
-  //     setInputMenu(true);
-  // }; return modificateBackground  })
+  // const toggleMenu = () => {
+  //   const value = menuField.current.value;
+  //   menuField.current.value = true ? value.style.transform='none' : null
+  // }
   
 
   return (
@@ -21,11 +24,13 @@ const Navbar = () => {
       <span></span>
       <span></span>
       </div>
-      <section className="backgroundNavbar">
+      <section className="backgroundNavbar"
+      //  ref={menuField} onClick={toggleMenu}
+       >
       <ul className="menu">
         <li className="first">
           <Link to="/">
-            <h3> SERRANO 360°</h3>
+            <h3 className="indexButton"> SERRANO 360°</h3>
           </Link>
         </li>
         <div className="menu2">

@@ -1,0 +1,30 @@
+.contacto {
+  padding-bottom: 0 !important;
+}
+
+.contacto .imgContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 40px;
+  background-color: #FFCBBA;
+}
+
+@media screen and (max-width: 768px) {
+  .contacto .imgContainer {
+    margin-top: 160px !important;
+  }
+}
+
+.contacto .imgContainer img {
+  width: 25%;
+}
+
+.contacto .derechos p {
+  font-family: Lato-Light;
+}
+/*# sourceMappingURL=Contacto.css.map */

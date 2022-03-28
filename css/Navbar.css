@@ -1,0 +1,223 @@
+.navContainer {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.navContainer input {
+  display: block;
+  width: 30%;
+  height: 62px;
+  position: absolute;
+  top: 16px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+.navContainer input:checked ~ section {
+  -webkit-transform: none;
+          transform: none;
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+}
+
+@media (min-width: 768px) {
+  .navContainer input {
+    display: none;
+  }
+}
+
+.navContainer span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 8px;
+  top: 10px;
+  background: #000000;
+  border-radius: 3px;
+  z-index: 1;
+  -webkit-transform-origin: 4px 0px;
+          transform-origin: 4px 0px;
+}
+
+.navContainer span:first-child {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+.navContainer span:nth-last-child(2) {
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+@media (min-width: 768px) {
+  .navContainer span {
+    display: none;
+  }
+}
+
+.navContainer .menu {
+  width: 50%;
+  position: absolute;
+  height: 100vh;
+  background: #ffffff;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  color: #232323;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.navContainer .menu li {
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.navContainer .menu li:hover {
+  color: black;
+}
+
+.navContainer .menu li:first-child {
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .navContainer .menu li {
+    padding: 0;
+    margin: 15px 12px;
+  }
+}
+
+.navContainer .menu a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 18px;
+  width: 100%;
+}
+
+.navContainer .menu a:hover {
+  color: #747373;
+}
+
+.navContainer .menu a:focus {
+  color: grey;
+  color: #6e6e6e;
+}
+
+.navContainer .menu a:focus {
+  color: #969696;
+}
+
+.navContainer .menu a h3 {
+  margin-bottom: 0;
+}
+
+.navContainer .menu a p {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .navContainer .menu {
+    margin: 0;
+    top: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100vw;
+    -webkit-transform: none;
+            transform: none;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    height: 14vh;
+    position: fixed;
+    left: 0;
+  }
+  .navContainer .menu .first {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.navContainer .menu .first {
+  width: 200px;
+}
+
+.navContainer .menu2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 6rem;
+}
+
+@media (min-width: 768px) {
+  .navContainer .menu2 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .navContainer .menu2 li {
+    width: 150px;
+    margin-top: 40px;
+    padding: 0 5px;
+  }
+  .navContainer .menu2 li:first-child {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer .backgroundNavbar {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-transform: translate(-120%, 0);
+            transform: translate(-120%, 0);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+  }
+}
+
+.navContainer .menuhamburguer {
+  background-color: #ffffff;
+  width: 50px;
+  height: 40px;
+  margin: 15px;
+}
+/*# sourceMappingURL=Navbar.css.map */
