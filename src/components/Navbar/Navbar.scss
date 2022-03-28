@@ -33,7 +33,15 @@
       display: none;
     }
   }
-
+  .borderMenu {
+    background-color: $pink1;
+    z-index: 400;
+    position: absolute;
+    width: 35px;
+    height: 500px;
+    left: 0;
+    top: 0;
+  }
   span {
     display: block;
     width: 33px;
@@ -78,8 +86,9 @@
     li {
       margin-top: 15px;
       margin-right: 5px;
-      margin-left: 30px;
+      margin-left: 20px;
       width: 100%;
+      z-index: 600;
       &:hover {
         color: black;
       }
@@ -188,6 +197,7 @@
     width: 50px;
     height: 40px;
     margin: 15px;
+    margin-left: 12px;
     z-index: 100;
     @media screen and (min-width:768px) {
       display: none;

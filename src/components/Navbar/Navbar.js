@@ -1,7 +1,6 @@
 import React, {useRef} from "react";
-import "../../index.scss"
-import "./Navbar.scss";
 import { Link } from "react-router-dom";
+import "../../index.scss"
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -27,6 +26,7 @@ const Navbar = () => {
       <section className="backgroundNavbar"
       //  ref={menuField} onClick={toggleMenu}
        >
+         <span className="borderMenu"></span>
       <ul className="menu">
         <li className="first">
           <Link to="/">
