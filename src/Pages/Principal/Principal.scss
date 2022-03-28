@@ -7,7 +7,7 @@
     align-items: center;
     z-index: 1;
     @media screen and (max-width:768px){
-        padding-top: 0;
+        padding-top: 0 !important;
     }
     .gridTitulo{
         width: 100%;
@@ -83,7 +83,7 @@
             animation-duration: 25s;
             animation-name: imagen3;
             animation-iteration-count: infinite;
-            animation-timing-function: linear;
+            animation-timing-function: linear;npm
         }
         @keyframes imagen1 {
             0% {
