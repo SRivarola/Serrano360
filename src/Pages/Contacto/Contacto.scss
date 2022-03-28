@@ -1,0 +1,22 @@
+.contacto{
+    padding-bottom: 0 !important;
+    .imgContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        background-color: #FFCBBA;
+        @media screen and (max-width:768px) {
+            margin-top: 160px !important;
+            
+            }
+        img{
+            width: 25%;
+        }
+    }
+    .derechos{
+        p{
+            font-family: Lato-Light;
+        }
+    }
+}

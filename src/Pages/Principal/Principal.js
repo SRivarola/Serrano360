@@ -1,8 +1,11 @@
 import './Principal.scss'
 import React from 'react'
-import img1 from '../../assets/img1b.jpeg'
-import img2 from '../../assets/img2b.jpeg'
-import img3 from '../../assets/img3b.jpeg'
+import img1 from '../../assets/principal/img1.jpg'
+import img2 from '../../assets/principal/img2.jpg'
+import img3 from '../../assets/principal/img3.jpg'
+import img4 from '../../assets/principal/img1_mobile.jpg'
+import img5 from '../../assets/principal/img2_mobile.jpg'
+import img6 from '../../assets/principal/img3_mobile.jpg'
 
 export default function Principal() {
   return (
@@ -11,6 +14,9 @@ export default function Principal() {
         <img className='img1' src={img1} alt='foto de portada'/>
         <img className='img2' src={img2} alt='foto de portada'/>
         <img className='img3' src={img3} alt='foto de portada'/>
+        <img className='img4' src={img4} alt='foto de portada'/>
+        <img className='img5' src={img5} alt='foto de portada'/>
+        <img className='img6' src={img6} alt='foto de portada'/>
       </div>
     </section>
   )
