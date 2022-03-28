@@ -22,18 +22,17 @@
     display: flex;
     justify-content: center;
     margin-top: 30px;
-
-}
-button{
-    background-color: transparent;
-    padding: 10px 30px;
-    border: 1px solid #D27F67;
-    border-radius: 10px;
-    color: #D27F67;
-    font-size: 24px;
-    cursor: pointer;
-    font-family: Lato-Light;
-    z-index: 999;
+    button{
+        background-color: transparent;
+        padding: 10px 30px;
+        border: 1px solid #D27F67;
+        border-radius: 10px;
+        color: #D27F67;
+        font-size: 24px;
+        cursor: pointer;
+        font-family: Lato-Light;
+        z-index: 999;
+    }
 }
 .verMas{
     width: 100%;

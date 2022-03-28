@@ -1,5 +1,5 @@
-import './Fotos360.scss'
 import '../../index.scss'
+import './Fotos360.scss'
 import React, { useState } from 'react'
 import img1 from '../../assets/fotos360/lampara.jpg'
 import img2 from '../../assets/fotos360/florero antiguo.gif'
