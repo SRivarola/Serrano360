@@ -5,7 +5,7 @@
   height: 100vh;
   display: block;
   position: fixed;
-  z-index: 999;
+  z-index:15 ;
   user-select: none;
   // background-color: rgba($color: #000000, $alpha: 0.3);
   input {
@@ -82,6 +82,7 @@
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
+    z-index: 100;
 
     li {
       margin-top: 15px;
@@ -100,6 +101,7 @@
       @media (min-width: 768px) {
         padding: 0;
         margin: 15px 12px;
+        z-index: 100;
       }
     }
 
@@ -140,7 +142,7 @@
       width: 100vw;
       transform: none;
       justify-content: end;
-      height: 14vh;
+      height: 15vh;
       position: fixed;
       left: 0;
 
