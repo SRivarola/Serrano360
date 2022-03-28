@@ -10,6 +10,12 @@ import img6 from '../../assets/principal/img3_mobile.jpg'
 export default function Principal() {
   return (
     <section className='fixed'>
+      <div className='containerTitulo'>
+        <div className='gridTitulo'>
+          <h1>SERRANO 360°</h1>
+          <h3>Fotografia de productos</h3>
+        </div>
+      </div>
       <div className='containerBackground grid'>
         <img className='img1' src={img1} alt='foto de portada'/>
         <img className='img2' src={img2} alt='foto de portada'/>
