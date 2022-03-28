@@ -1,32 +1,33 @@
 .navContainer {
   width: 100%;
+  height: 100vh;
   display: block;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  // top: 20px;
+  // left: 20px;
   z-index: 1;
   user-select: none;
-
+  // background-color: rgba($color: #000000, $alpha: 0.3);
   input {
     display: block;
-    width: 100%;
-    height: 32px;
-    background-color: rgba($color: #000000, $alpha: 0.3);
+    width: 30%;
+    height: 62px;
     position: absolute;
-    top: -7px;
+    top: 16px;
     left: -5px;
     cursor: pointer;
     opacity: 0;
     z-index: 2;
 
-    &:checked~ul {
-      transform: none;
-      transition: 1s ease-out;
-    }
+    // &:checked~ul {
+    //   transform: none;
+    //   transition: 1s ease-out;
+    // }
     &:checked~section {
       transform: none;
       transition: 1s ease-out;
     }
+    
 
     @media (min-width: 768px) {
       display: none;
@@ -39,7 +40,8 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
+    left: 8px;
+    top: 10px;
     background: #000000;
     border-radius: 3px;
 
@@ -63,7 +65,7 @@
   .menu {
     width: 50%;
     position: absolute;
-    height: 600px;
+    height: 100vh;
     background: #ffffff;
     list-style-type: none;
     // transform: translate(-100%, 0);
@@ -142,6 +144,9 @@
         align-self: center;
       }
     }
+    .first {
+      width: 200px;
+    }
   }
   .menu2 {
     display: flex;
@@ -163,11 +168,20 @@
   }
   .backgroundNavbar {
     @media screen and (max-width:768px) {
-      width: 100vw;
-      height: 100vh;
+       width: 100vw;
+       height: 100vh;
       background-color: rgba($color: #000000, $alpha: 0.3);
       transform: translate(-120%, 0);
+      position: absolute;
+      z-index: 1;
+      top: 0;
       
     }
+  }
+  .menuhamburguer {
+    background-color: #ffffff;
+    width: 50px;
+    height: 40px;
+    margin: 15px;
   }
 }

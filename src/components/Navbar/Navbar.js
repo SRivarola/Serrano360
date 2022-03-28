@@ -1,17 +1,26 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Navbar.scss";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 
 const Navbar = () => {
+  // const [inputMenu, setInputMenu] = useState(false);
+
+  // useEffect(() => {
+  //   const  modificateBackground = () => {
+  //     setInputMenu(true);
+  // }; return modificateBackground  })
+  
+
   return (
     <div className="navContainer">
      
-      <input type="checkbox" />
+      <input type="checkbox"  />
+      <div className="menuhamburguer">
       <span></span>
       <span></span>
       <span></span>
-  
+      </div>
       <section className="backgroundNavbar">
       <ul className="menu">
         <li className="first">
