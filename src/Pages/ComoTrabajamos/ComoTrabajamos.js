@@ -14,7 +14,7 @@ const ComoTrabajamos = () => {
       Porque además de sacar fotos profesionales, también pensamos en tu comodidad y en proteger tu mercancía,  ya que vamos a tu empresa, local, showroom ¡donde quiera que esté!<br></br>  De esta manera no necesitas mover tus productos.</p>
       </div>
       <div className="listContainer">
-
+    <table>
         <tbody>
           <tr>
             <td>
@@ -66,6 +66,7 @@ const ComoTrabajamos = () => {
             </td>
           </tr>
         </tbody>
+        </table>
       </div>
       <p style={{fontSize:'25px', fontWeight:'bold'}}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
     </div>
