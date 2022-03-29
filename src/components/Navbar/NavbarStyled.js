@@ -5,7 +5,7 @@ const ToggleContainer = styled.div`
     display: flex;
     position: absolute;
     justify-items: center;
-    margin-left: 15px;
+    margin-left: 20px;
     top: 0;
     display: none;
     z-index: 1999;
