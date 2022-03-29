@@ -129,6 +129,10 @@ height: 500px;
 left: 0;
 top: 0;
 z-index:1;
+@media (min-width: 768px){
+    display: none;
+    
+}
 `
 
 export {
