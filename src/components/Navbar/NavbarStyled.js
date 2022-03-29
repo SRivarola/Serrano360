@@ -4,6 +4,7 @@ const BarraMenu = styled.div`
     width: 100%;
     display: block;
     position: fixed;
+    top:0;
     z-index:999;
     @media (max-width: 768px){
         display: grid;
