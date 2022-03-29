@@ -1,3 +1,9 @@
+.fotos360{
+    @media screen and (min-width:768px){
+        display: none !important;
+    }
+
+}
 .gridFotos{
     width: 90%;
     margin: 0 auto;
@@ -54,7 +60,7 @@
         display: none;
     }
     @media screen and (max-width:768px) {
-        margin-top: 0;
+        margin-top: -40px;
         p{
             display: flex;
             padding-left: 30px;
