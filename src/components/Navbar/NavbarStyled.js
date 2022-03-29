@@ -35,11 +35,11 @@ const BarraMenu = styled.div`
         height: 100vh;
 
         ${props => props.valido === 'false' && css`
-            transition: all 1s;
+            transition: all 1.5s;
             margin-left: -100% !important;
         `} 
         ${props => props.valido === 'true' && css`
-            transition: all 1s;
+            transition: all 1.5s;
             margin-left: 0% !important;
         `}
     }
@@ -69,16 +69,17 @@ const ToggleButton = styled.button`
 `
 
 const List = styled.ul`
-    position:absolute;
+    position: absolute;
     z-index:50;
     width: 90%;
-    margin: 0 auto;
+    margin-left: 5%;
     display: grid;
     left:20px;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
+      margin-left: 5px;
     }
 `
 
@@ -92,7 +93,7 @@ const ItemList = styled.li`
     }
     @media (max-width: 768px){
         text-align: left;
-        margin-top: -20px;
+        margin-top: -40px;
     }
 `
 
@@ -102,6 +103,8 @@ const Leyenda = styled.p`
     margin-top: -60px;
     @media (max-width: 768px){
         display: flex;
+        z-index: 20;
+        color: #000 !important;
     }
     @media (max-width: 365px){
         font-size:12px;
