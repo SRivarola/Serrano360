@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../../index.scss"
 import "./Navbar.scss";
 import {Icon} from '@iconify/react'
-import { BarraMenu, ItemList, Leyenda, List, Menu, ToggleButton, ToggleContainer, Transparencia } from './NavbarStyled'
+import { BarraMenu, ItemList, Leyenda, List, Menu, ToggleButton, ToggleContainer, Transparencia, Border } from './NavbarStyled'
 
 const Navbar = () => {
   
@@ -31,10 +31,11 @@ const Navbar = () => {
       </ToggleContainer>
       <BarraMenu valido={navBar}>
         <Menu>
+          <Border></Border>
           <List>
             <ItemList>
-              <Link className="item" to="/" onClick={handleFalse}>SERRANO 360°</Link>
-              <Leyenda>Fotografia de productos</Leyenda>
+              <Link  to="/" onClick={handleFalse}><span className="item">SERRANO 360°</span>
+              <Leyenda>Fotografia de productos</Leyenda></Link>
             </ItemList>
             <ItemList>
               <Link to="/fotos360" onClick={handleFalse}>Fotos 360°</Link>

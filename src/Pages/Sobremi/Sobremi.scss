@@ -3,7 +3,7 @@
     flex-direction: column;
     @media screen and (min-width:768px) {
         flex-direction: row;
-        margin: 20px 20px 20px 0;
+        margin: 0px 20px 0px 0;
     }
     img {
         border-radius: 20px;
@@ -13,7 +13,7 @@
     .section1Image {
         display: flex; 
         justify-content:center;
-        margin: 20px 0;
+        margin: 20px;
          @media screen and (min-width:768px) {
             margin: 20px 20px 20px 0;
         }
@@ -22,14 +22,13 @@
 .section2 {
     display: grid;
     flex-direction: column;
-    margin: 20px 20px 20px 0;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30% 70%;
     grid-template-rows: auto;
-    grid-template-areas: "texto texto texto texto" 
-                        "imagen imagen imagen imagen";
+    grid-template-areas: "texto texto" 
+                        "imagen imagen";
     @media screen and (min-width:768px) {
 
-        grid-template-areas: "imagen texto texto texto";
+        grid-template-areas: "imagen texto";
     
     }
     
@@ -37,14 +36,20 @@
 
 .section2Text {
     grid-area: texto;
+    align-self: center;
 }
 
 .section2Image {
     grid-area: imagen;
     display: flex; 
-    justify-content:center;
-     margin: 20px 0;
+    justify-content:end;
     img {
-        width: 200px;
+        width: 260px;
     }
+}
+
+.parrafoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

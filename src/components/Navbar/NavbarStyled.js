@@ -12,7 +12,7 @@ const ToggleContainer = styled.div`
     @media (max-width: 768px) {
         display: flex;
         ${props => props.valido === 'true' && css`
-            transition: all 1s;
+            transition: all 1.5s;
             display: none
         `}
     }
@@ -26,6 +26,7 @@ const BarraMenu = styled.div`
     width: 100%;
     display: block;
     position: fixed;
+    top:0;
     z-index:999;
     top: 0;
     @media (max-width: 768px){
@@ -57,15 +58,23 @@ const Menu = styled.nav`
     }
 `
 const ToggleButton = styled.button`
-    background: transparent;
+    background: #EFE9E1;
     border: none;
     cursor: pointer;
+    height:42px;
+    width:50px;
+    top:20px;
+    position:fixed;
+    border-radius:8px;
 `
 
 const List = styled.ul`
+    position:absolute;
+    z-index:50;
     width: 90%;
     margin: 0 auto;
     display: grid;
+    left:20px;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
     @media (max-width: 768px) {
       display: flex;
@@ -89,10 +98,14 @@ const ItemList = styled.li`
 
 const Leyenda = styled.p`
     display: none;
+    font-size:14px;
     margin-top: -60px;
     @media (max-width: 768px){
         display: flex;
         z-index: 20;
+    }
+    @media (max-width: 365px){
+        font-size:12px;
     }
 `
 
@@ -108,6 +121,21 @@ const Transparencia = styled.div`
     }
 `
 
+const Border = styled.div`
+background-color: #EFE9E1;
+z-index: 400;
+position: absolute;
+width: 35px;
+height: 500px;
+left: 0;
+top: 0;
+z-index:1;
+@media (min-width: 768px){
+    display: none;
+    
+}
+`
+
 export {
     ToggleContainer,
     BarraMenu,
@@ -116,5 +144,6 @@ export {
     List,
     ItemList,
     Leyenda,
-    Transparencia
+    Transparencia,
+    Border
 }

@@ -29,4 +29,8 @@ a {
     &:focus {
       color: #000;
     }
+    @media (max-width: 400px) {
+     font-size: 20px;
+    }
+   
 }
