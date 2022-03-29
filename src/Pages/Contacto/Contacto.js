@@ -8,8 +8,11 @@ import img1 from '../../assets/contacto/te.gif'
 export default function Sobremi() {
   return (
     <div className='container contacto'>
+      <div className='titleContainer'>
       <h1>Contacto</h1>
       <span className='subrayado'></span>
+      </div>
+    
       <div className='listContainer' >
         <table>
           <tbody>

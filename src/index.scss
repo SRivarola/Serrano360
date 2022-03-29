@@ -51,8 +51,8 @@ li {
       padding: 10px 70px;
       text-align: left;
       @media screen and (max-width:768px) {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
   }
   p{
@@ -91,9 +91,10 @@ li {
   .titleContainer {
     @media screen and (max-width:768px) {
       position: sticky;
-      top: -10px;
+      top: 0px;
+      padding-top: 25px;
       background-color: #fff;
-      height: 80px;
+      height: 120px;
     }
   }
 }

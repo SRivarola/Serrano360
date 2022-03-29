@@ -43,6 +43,20 @@ const BarraMenu = styled.div`
             margin-left: 0% !important;
         `}
     }
+    @media (max-width: 350px){
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        height: 100vh;
+
+        ${props => props.valido === 'false' && css`
+            transition: all 1.5s;
+            margin-left: -100% !important;
+        `} 
+        ${props => props.valido === 'true' && css`
+            transition: all 1.5s;
+            margin-left: 0% !important;
+        `}
+    }
 `
 
 const Menu = styled.nav`
@@ -55,6 +69,7 @@ const Menu = styled.nav`
         width: 100%;
         height: 100%;
         padding-top: 48px;
+   
     }
 `
 const ToggleButton = styled.button`
@@ -80,6 +95,7 @@ const List = styled.ul`
       display: flex;
       flex-direction: column;
       margin-left: 5px;
+     
     }
 `
 

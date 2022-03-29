@@ -4,7 +4,7 @@
     width: 80px;
 
 }
-
+.container {
 .listContainer {
     margin-top: 30px;
     margin-left: 50px;
@@ -26,20 +26,24 @@
         }
     }
 }
-
-
 .trabajamosPresentacion {
     width: 100%;
 
     .presentacionParrafo {
         font-size: 18px;
+        @media screen and (max-width:768px) {
+            font-size: 22px;
+            font-weight: 100;
+        }
     }
 }
 .trabajamosSubtitulo {
+    margin-top: 50px;
     font-size: 22px;
-    font-weight: lighter;
+    font-weight:100;
 }
 td p {
     padding-left: 0px;
 }
 
+}

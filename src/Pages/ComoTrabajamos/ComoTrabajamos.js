@@ -7,12 +7,12 @@ const ComoTrabajamos = () => {
   return (
 
     <div className="container containerPresentacion">
-      <div className="trabajamosPresentacion">
         <div className='titleContainer'>
           <h1>Como trabajo</h1>
           <span className='mt-1 pt-1 subrayado '></span>
         </div>
-        <h2 className="trabajamosSubtitulo">Nos gustaría que trabajar con nosotros sea una buena experiencia para vos</h2>
+      <div className="trabajamosPresentacion">
+        <p className="trabajamosSubtitulo">Nos gustaría que trabajar con nosotros sea una buena <span style={{fontStyle:'italic'}}> experiencia </span>  para vos.</p>
         <p className="presentacionParrafo">
           Porque además de sacar fotos profesionales, también pensamos en tu comodidad y en proteger tu mercancía,  ya que vamos a tu empresa, local, showroom ¡donde quiera que esté!<br></br>  De esta manera no necesitas mover tus productos.</p>
       </div>
@@ -71,7 +71,7 @@ const ComoTrabajamos = () => {
           </tbody>
         </table>
       </div>
-      <p style={{ fontSize: '25px', fontWeight: 'bold', color: '#0C4230'}}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
+      <p style={{ fontSize: '22px', fontWeight: 'bold', color: '#0C4230'}}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
     </div>
   )
 }

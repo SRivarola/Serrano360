@@ -36,8 +36,8 @@ export default function Fotos360() {
         <h1>Fotos 360°</h1>
         <span className='subrayado'></span>
         </div>
-        
-        <p>Para crear las fotografías en 360°, las mismas son tomadas desde varios ángulos con una buena iluminación, el fondo puede ser del color que prefieras. Y para hacerlas interactivas, la animación es de 360°.  La idea es buscar a la perfección las cualidades y características del objeto fotografiado.</p>
+        <div>
+        <p style={{marginTop:'30px'}}>Para crear las fotografías en 360°, las mismas son tomadas desde varios ángulos con una buena iluminación, el fondo puede ser del color que prefieras. Y para hacerlas interactivas, la animación es de 360°.  La idea es buscar a la perfección las cualidades y características del objeto fotografiado.</p>
         <p>Esta manera de presentar las fotos, permite mostrar los productos de un ecommerce desde todos los ángulos, porque cada imagen 360° está compuesta de al menos 20 fotografías diferentes del producto, que después se unen usando un software especial.</p>
         <div className='gridFotos'>
           <img className='img1' src={img1} alt='foto del producto' />
@@ -49,6 +49,7 @@ export default function Fotos360() {
         <div className='btn-container'>
           <button type='button' onClick={handleOnclick} >Ver más</button>
         </div>
+      </div>
       </div>
       :
       <div className='verMas'>
