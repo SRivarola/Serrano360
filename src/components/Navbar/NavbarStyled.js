@@ -45,17 +45,7 @@ const BarraMenu = styled.div`
     }
     @media (max-width: 350px){
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
-        height: 100vh;
-
-        ${props => props.valido === 'false' && css`
-            transition: all 1.5s;
-            margin-left: -100% !important;
-        `} 
-        ${props => props.valido === 'true' && css`
-            transition: all 1.5s;
-            margin-left: 0% !important;
-        `}
+        grid-template-columns: 1.5fr 1fr;  
     }
 `
 
