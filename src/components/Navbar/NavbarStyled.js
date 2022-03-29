@@ -9,13 +9,12 @@ const BarraMenu = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: 100vh;
-        /* margin-left: 100%; */
 
-        ${props => props === 'true' & css`
-            margin-left: 0% !important;
-        `}
-        ${props => props === 'false' & css`
+        ${props => props.valido === 'false' && css`
             margin-left: 100% !important;
+        `} 
+        ${props => props.valido === 'true' && css`
+            margin-left: 0% !important;
         `}
     }
 `

@@ -26,7 +26,7 @@ const Navbar = () => {
           <Icon className="icono" icon="akar-icons:three-line-horizontal"/>
         </ToggleButton>
       </div>
-      <BarraMenu props={navBar}>
+      <BarraMenu valido={navBar}>
         <Menu>
           <List>
             <ItemList>
