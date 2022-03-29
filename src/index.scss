@@ -84,7 +84,14 @@ li {
       font-size: 18px;
     }
   }
-
+  .titleContainer {
+    @media screen and (max-width:768px) {
+      position: sticky;
+      top: -10px;
+      background-color: #fff;
+      height: 80px;
+    }
+  }
 }
 
   // BACKGROUND COLORS
