@@ -20,6 +20,7 @@ a {
     }
 }
 .item{
+    z-index: 50;
     font-size: 24px;
     font-weight: bold;
     &:focus {

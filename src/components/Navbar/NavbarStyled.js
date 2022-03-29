@@ -34,11 +34,11 @@ const BarraMenu = styled.div`
         height: 100vh;
 
         ${props => props.valido === 'false' && css`
-            transition: all 1s;
+            transition: all 1.5s;
             margin-left: -100% !important;
         `} 
         ${props => props.valido === 'true' && css`
-            transition: all 1s;
+            transition: all 1.5s;
             margin-left: 0% !important;
         `}
     }
@@ -92,6 +92,7 @@ const Leyenda = styled.p`
     margin-top: -60px;
     @media (max-width: 768px){
         display: flex;
+        z-index: 20;
     }
 `
 
