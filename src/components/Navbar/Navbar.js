@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../../index.scss"
 import "./Navbar.scss";
 import {Icon} from '@iconify/react'
-import { BarraMenu, ItemList, Leyenda, List, Menu, ToggleButton } from './NavbarStyled'
+import { BarraMenu, ItemList, Leyenda, List, Menu, ToggleButton, ToggleContainer, Transparencia } from './NavbarStyled'
 
 const Navbar = () => {
   
@@ -17,37 +17,40 @@ const Navbar = () => {
     }
   }
 
+  const handleFalse = () => {
+    setNavBar('false')
+  }
   console.log(navBar)
 
   return (
     <>
-      <div className="containerBtn">
+      <ToggleContainer valido={navBar}>
         <ToggleButton type='button' onClick={handleClick}>
           <Icon className="icono" icon="akar-icons:three-line-horizontal"/>
         </ToggleButton>
-      </div>
+      </ToggleContainer>
       <BarraMenu valido={navBar}>
         <Menu>
           <List>
             <ItemList>
-              <Link className="item" to="/">SERRANO 360°</Link>
+              <Link className="item" to="/" onClick={handleFalse}>SERRANO 360°</Link>
               <Leyenda>Fotografia de productos</Leyenda>
             </ItemList>
             <ItemList>
-              <Link to="/fotos360">Fotos 360°</Link>
+              <Link to="/fotos360" onClick={handleFalse}>Fotos 360°</Link>
             </ItemList>
             <ItemList>
-              <Link to="/sobremi">Sobre mí</Link>
+              <Link to="/sobremi" onClick={handleFalse}>Sobre mí</Link>
             </ItemList>
             <ItemList>
-              <Link to="/comotrabajamos">Como trabajo</Link>
+              <Link to="/comotrabajamos" onClick={handleFalse}>Como trabajo</Link>
             </ItemList>
             <ItemList>
-              <Link to="/contacto">Contacto</Link>
+              <Link to="/contacto" onClick={handleFalse}>Contacto</Link>
             </ItemList>
           </List>
         </Menu>
-        <div className="transparencia"></div>
+        <Transparencia onClick={handleFalse}/>
       </BarraMenu>
     </>
     // <div className="navContainer">
