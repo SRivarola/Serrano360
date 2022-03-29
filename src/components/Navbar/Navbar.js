@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "../../index.scss"
 import "./Navbar.scss";
 import {Icon} from '@iconify/react'
@@ -38,16 +38,16 @@ const Navbar = () => {
               <Leyenda>Fotografia de productos</Leyenda></Link>
             </ItemList>
             <ItemList>
-              <Link to="/fotos360" onClick={handleFalse}>Fotos 360°</Link>
+              <NavLink to="/fotos360" activeClassName='active' onClick={handleFalse}>Fotos 360°</NavLink>
             </ItemList>
             <ItemList>
-              <Link to="/sobremi" onClick={handleFalse}>Sobre mí</Link>
+              <NavLink to="/sobremi" activeClassName='active' onClick={handleFalse}>Sobre mí</NavLink>
             </ItemList>
             <ItemList>
-              <Link to="/comotrabajamos" onClick={handleFalse}>Como trabajo</Link>
+              <NavLink to="/comotrabajamos" activeClassName='active' onClick={handleFalse}>Como trabajo</NavLink>
             </ItemList>
             <ItemList>
-              <Link to="/contacto" onClick={handleFalse}>Contacto</Link>
+              <NavLink to="/contacto" activeClassName='active' onClick={handleFalse}>Contacto</NavLink>
             </ItemList>
           </List>
         </Menu>

@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Fotos360 from "./Pages/Fotos360/Fotos360";
 import Sobremi from "./Pages/Sobremi/Sobremi";
@@ -10,7 +10,7 @@ import Principal from "./Pages/Principal/Principal";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar />
         <Principal/>
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/comotrabajamos" element={<ComoTrabajamos />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
