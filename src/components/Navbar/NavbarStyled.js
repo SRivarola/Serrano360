@@ -79,6 +79,7 @@ const List = styled.ul`
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
+      margin-left: 5px;
     }
 `
 
@@ -92,7 +93,7 @@ const ItemList = styled.li`
     }
     @media (max-width: 768px){
         text-align: left;
-        margin-top: -20px;
+        margin-top: -40px;
     }
 `
 
