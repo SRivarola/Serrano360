@@ -1,5 +1,5 @@
 a {
-    color: black;
+    color: #0C4230;
     text-decoration: none;
     padding: 10px 0;
     font-size: 18px;
@@ -11,18 +11,16 @@ a {
     }
   
     &:focus {
-      color: grey;
-      color: rgb(110, 110, 110);
+      color: #D27F67;
     }
   
-    &:focus {
-      color: rgb(150, 150, 150);
-    }
+   
 }
 .item{
     z-index: 50;
     font-size: 24px;
     font-weight: bold;
+    color: #000 !important;
     &:focus {
       color: #000;
     }

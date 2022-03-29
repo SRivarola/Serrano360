@@ -8,10 +8,12 @@
         background-color: #FFCBBA;
         @media screen and (max-width:768px) {
             margin-top: 140px !important;
-            
+            img{
+                width: 60%;
             }
+        }
         img{
-            width: 50%;
+            width: 35%;
         }
     }
     .derechos{

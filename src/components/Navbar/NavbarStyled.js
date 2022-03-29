@@ -69,13 +69,13 @@ const ToggleButton = styled.button`
 `
 
 const List = styled.ul`
-    position:absolute;
+    position: absolute;
     z-index:50;
     width: 90%;
-    margin: 0 auto;
+    margin-left: 5%;
     display: grid;
     left:20px;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
@@ -104,6 +104,7 @@ const Leyenda = styled.p`
     @media (max-width: 768px){
         display: flex;
         z-index: 20;
+        color: #000 !important;
     }
     @media (max-width: 365px){
         font-size:12px;

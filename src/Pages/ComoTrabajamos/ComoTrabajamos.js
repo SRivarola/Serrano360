@@ -71,7 +71,7 @@ const ComoTrabajamos = () => {
           </tbody>
         </table>
       </div>
-      <p style={{ fontSize: '25px', fontWeight: 'bold' }}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
+      <p style={{ fontSize: '25px', fontWeight: 'bold', color: '#0C4230'}}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
     </div>
   )
 }

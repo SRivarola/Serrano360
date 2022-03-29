@@ -32,6 +32,14 @@
         cursor: pointer;
         font-family: Lato-Light;
         z-index: 999;
+        &:hover{
+            color: #fff;
+            background: #E3957E;
+        }
+        &:focus{
+            color: #fff;
+            background: #D27F67;
+        }
     }
 }
 .verMas{
@@ -42,8 +50,18 @@
     position: relative;
     margin-top: 87px;
     padding-bottom: 30px;
+    p{
+        display: none;
+    }
     @media screen and (max-width:768px) {
         margin-top: 0;
+        p{
+            display: flex;
+            padding-left: 30px;
+            padding-top: 80px;
+            font-family: Lato-Light;
+            font-size: 24px;
+        }
     }
     .gridVerMas{
         display: grid;

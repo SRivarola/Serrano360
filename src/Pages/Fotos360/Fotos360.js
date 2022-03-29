@@ -52,6 +52,7 @@ export default function Fotos360() {
       </div>
       :
       <div className='verMas'>
+        <p>Fotoproductos</p>
         <div className='gridVerMas grid1'>
           <img src={vermas1} alt='foto del producto'/>
           <img className='yoda' src={vermas2} alt='foto del producto'/>
