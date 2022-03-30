@@ -88,14 +88,15 @@ li {
       font-size: 18px;
     }
   }
-  .titleContainer {
-    @media screen and (max-width:768px) {
-      position: sticky;
-      top: 0px;
-      padding-top: 25px;
-      background-color: #fff;
-      height: 120px;
-    }
+}
+
+.titleContainer {
+  @media screen and (max-width:768px) {
+    position: sticky;
+    top: 0px;
+    padding-top: 25px;
+    background-color: #fff;
+    height: 120px;
   }
 }
 
