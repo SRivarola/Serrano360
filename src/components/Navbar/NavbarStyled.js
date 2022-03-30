@@ -12,7 +12,6 @@ const ToggleContainer = styled.div`
     @media (max-width: 768px) {
         display: flex;
         ${props => props.valido === 'true' && css`
-            transition: all 1.5s;
             display: none
         `}
     }
@@ -35,11 +34,9 @@ const BarraMenu = styled.div`
         height: 100vh;
 
         ${props => props.valido === 'false' && css`
-            transition: all 1.5s;
             margin-left: -100% !important;
         `} 
         ${props => props.valido === 'true' && css`
-            transition: all 1.5s;
             margin-left: 0% !important;
         `}
     }

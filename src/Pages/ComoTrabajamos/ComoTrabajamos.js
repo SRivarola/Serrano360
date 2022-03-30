@@ -21,7 +21,7 @@ const ComoTrabajamos = () => {
           <tbody>
             <tr>
               <td>
-                <Icon className='icon' icon='system-uicons:contacts' />
+                <Icon className='icon' icon='system-uicons:contacts' style= {{fontSize:'35px'}} />
               </td>
               <td>
                 <p> Se contacta con nosotros por cualquiera de estos medios (whatsapp, mail, Instagram). Nos cuenta sobre el tipo de servicio que necesita su empresa y nos deja sus datos.</p>
@@ -53,7 +53,7 @@ const ComoTrabajamos = () => {
             </tr>
             <tr>
               <td>
-                <Icon className='icon' icon='ion:diamond-outline' />
+                <Icon className='icon' icon='ion:diamond-outline'  style={{fontSize:'27px'}} />
               </td>
               <td>
                 <p>Etapa de edición.
