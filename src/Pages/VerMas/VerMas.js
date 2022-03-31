@@ -9,7 +9,6 @@ import vermas2 from '../../assets/vermas/yoda.gif'
 import vermas3 from '../../assets/vermas/corona.jpg'
 import vermas4 from '../../assets/vermas/perfues.jpg'
 import vermas5 from '../../assets/vermas/parlante.gif'
-import vermas6 from '../../assets/vermas/aceite.gif'
 import vermas7 from '../../assets/vermas/jarron.jpg'
 import vermas8 from '../../assets/vermas/anillo.gif'
 import vermas9 from '../../assets/vermas/porcelana.gif'
@@ -50,11 +49,8 @@ export default function VerMas() {
                 <img src={vermas4} alt='foto del producto'/>
                 <img className='parlante' src={vermas5} alt='foto del producto'/>
             </div>
-            <div className='gridVerMas grid3'>
-                <img src={vermas6} alt='foto del producto'/>
-            </div>
             <div className='gridVerMas grid4'>
-                <img src={vermas7} alt='foto del producto'/>
+                <img className='jarron' src={vermas7} alt='foto del producto'/>
                 <img className='anillo' src={vermas8} alt='foto del producto'/>
             </div>
             <div className='gridVerMas grid5'>

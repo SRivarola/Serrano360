@@ -3,6 +3,7 @@ import "../../index.scss"
 import "./Sobremi.scss"
 import sobremi from '../../assets/sobremi/sobremi.jpeg'
 import taza from '../../assets/sobremi/taza.gif'
+import Footer from "../../components/Footer/Footer";
 
 const Sobremi = () => {
   return <div className="container">
@@ -30,7 +31,8 @@ const Sobremi = () => {
         </div>
       </div>
     </div>
-  </div>;
+    <Footer/>
+  </div>
 };
 
 export default Sobremi;
