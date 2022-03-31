@@ -15,6 +15,7 @@ import vermas9 from '../../assets/vermas/porcelana.gif'
 import vermas10 from '../../assets/vermas/teteras.jpg'
 import vermas11 from '../../assets/vermas/luna.jpg'
 import vermas12 from '../../assets/vermas/perfume.gif'
+import Footer from '../../components/Footer/Footer'
 
 export default function VerMas() {
   return (
