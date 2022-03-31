@@ -21,4 +21,14 @@
     a {
         font-size: 14px;
     }
+    @media screen and (max-width:768px) {
+        margin-top: 0;
+        border-radius: none !important;
+    }
+    .links span {
+        cursor: pointer;
+        &:hover {
+            color: #D27F67;
+        }
+    }
 }

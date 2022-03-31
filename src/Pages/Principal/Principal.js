@@ -7,7 +7,6 @@ import img4 from '../../assets/principal/img1_mobile.jpg'
 import img5 from '../../assets/principal/img2_mobile.jpg'
 import img6 from '../../assets/principal/img3_mobile.jpg'
 import '../Contacto/Contacto'
-import Footer from '../../components/Footer/Footer'
 
 
 export default function Principal() {
