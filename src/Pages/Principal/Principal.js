@@ -20,7 +20,6 @@ export default function Principal() {
             <h3>Fotografia de productos</h3>
           </div>
           <Footer />
-          
         </div>
         <div className='containerBackground grid'>
           <img className='img1' src={img1} alt='foto de portada' />
