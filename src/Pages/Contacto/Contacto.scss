@@ -33,11 +33,31 @@
         display: flex;
         margin-top: 60px;
         margin-bottom: 60px;
+       @media screen and (max-width:768px) {
+           flex-direction: column;
+           p {
+               text-align: left;
+           }
+       }
+
         &__box {
             display: flex;
             flex-direction: column;
-            svg {
+            width: 33%;
+            svg, p {
                 align-self: center;
+                padding: 0;
+                @media screen and (max-width:768px) {
+                    align-self: initial;
+                }
+            }
+            p {
+                padding-top: 10px;
+                @media screen and (max-width:768px) {
+                    padding-left: 29px;
+                    padding-bottom: 10px;
+                    width: 100vw;
+                }
             }
         }
     }
