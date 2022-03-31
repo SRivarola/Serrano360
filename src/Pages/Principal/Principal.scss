@@ -31,6 +31,7 @@
     padding-top: 88px;
     position: fixed;
     top: 0;
+    
 }
 .grid{
     display: grid;
@@ -154,5 +155,12 @@
                 opacity: 0;
             }
         }
+    }
+    .footer {
+        background-color: white;
+        position: absolute;
+        bottom: -400px;
+        width: 100vw;  
+        padding: 30px;
     }
 }
