@@ -2,6 +2,7 @@ import React from "react";
 import '../../index.scss'
 import './ComoTrabajamos.scss'
 import { Icon } from '@iconify/react'
+import Footer from "../../components/Footer/Footer";
 
 const ComoTrabajamos = () => {
   return (
@@ -72,6 +73,7 @@ const ComoTrabajamos = () => {
         </table>
       </div>
       <p style={{ fontSize: '22px', fontWeight: 'bold', color: '#0C4230'}}>¡Ya tenés tus fotos para lucirlas en tu negocio!</p>
+      <Footer/>
     </div>
   )
 }

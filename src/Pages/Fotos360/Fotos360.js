@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 import img1 from '../../assets/fotos360/lampara.jpg'
 import img2 from '../../assets/fotos360/florero antiguo.gif'
 import img3 from '../../assets/fotos360/collar.jpg'
+import Footer from '../../components/Footer/Footer'
 
 export default function Fotos360() {
 
@@ -35,6 +36,7 @@ export default function Fotos360() {
             <button type='button' onClick={handleOnclick} >Ver más</button>
           </div>
         </div>
+        <Footer/>
       </div>
     </>
   )

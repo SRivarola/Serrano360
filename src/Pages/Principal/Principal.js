@@ -19,8 +19,6 @@ export default function Principal() {
             <h1>SERRANO 360°</h1>
             <h3>Fotografia de productos</h3>
           </div>
-          <Footer />
-          
         </div>
         <div className='containerBackground grid'>
           <img className='img1' src={img1} alt='foto de portada' />
@@ -30,9 +28,7 @@ export default function Principal() {
           <img className='img5' src={img5} alt='foto de portada' />
           <img className='img6' src={img6} alt='foto de portada' />
         </div>
-       
       </section>
-
     </>
   )
 }
