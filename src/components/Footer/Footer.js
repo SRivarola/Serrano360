@@ -5,12 +5,12 @@ import './Footer.scss'
 export default function Footer() {
   const handleMateo = (e) => {
     if (e === 'Mateo') {
-      window.location.assign('https://www.linkedin.com/in/mateofernandezbanchi');
+      window.open('https://www.linkedin.com/in/mateofernandezbanchi', '_blank');
     }
     else if (e === 'Sophia') {
-      window.location.assign('https://www.linkedin.com/in/sofiaollerschmid/');
+      window.open('https://www.linkedin.com/in/sofiaollerschmid/', '_blank');
     } else if (e === 'Santiago') {
-      window.location.assign('https://www.linkedin.com/in/santiago-rivarola-b6b500219/');
+      window.open('https://www.linkedin.com/in/santiago-rivarola-b6b500219/', '_blank');
     } else {
       return;
     } }
