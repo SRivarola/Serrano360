@@ -1,24 +1,44 @@
-.contacto{
+.contacto {
     padding-bottom: 0 !important;
-    .imgContainer{
+
+    .imgContainer {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 40px;
         background-color: #FFCBBA;
+        
+
         @media screen and (max-width:768px) {
             margin-top: 80px !important;
         }
-        img{
-            width: 35%;
-            @media screen and (max-width:768px){
+
+        img {
+            width: 25%;
+
+            @media screen and (max-width:768px) {
                 width: 70%;
             }
         }
     }
-    .derechos{
-        p{
-            font-family: Lato-Light;
+
+  
+
+    .presentacionContacto {
+        font-size: 18px;
+        width: 90%;
+
+    }
+    .redesContainer {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        &__box {
+            display: flex;
+            flex-direction: column;
+            svg {
+                align-self: center;
+            }
         }
     }
 }

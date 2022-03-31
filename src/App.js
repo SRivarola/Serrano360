@@ -8,6 +8,7 @@ import Home from "./Pages/Home/Home";
 import Principal from "./Pages/Principal/Principal";
 import VerMas from "./Pages/VerMas/VerMas";
 
+
 function App() {
   return (
     <div>

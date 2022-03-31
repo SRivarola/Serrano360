@@ -9,37 +9,29 @@ export default function Sobremi() {
   return (
     <div className='container contacto'>
       <div className='titleContainer'>
-      <h1>Contacto</h1>
-      <span className='subrayado'></span>
+        <h1>Contacto</h1>
+        <span className='subrayado'></span>
       </div>
-    
-      <div className='listContainer' >
-        <table>
-          <tbody>
-            <tr>
-              <td><Icon className="icon" icon="uil:whatsapp"/> </td>
-              <td>094 487 159</td>
-            </tr>
-            <tr>
-              <td><Icon className="icon" icon="uil:envelope"/></td>
-              <td>360serrano@gmail.com</td>
-            </tr>
-            <tr>
-              <td><Icon className="icon" icon="uil:instagram"/></td>
-              <td>serrano_360</td>
-            </tr>
-          </tbody>
-        </table>
+
+      <div className="parrafoContainer">
+        <p className="presentacionContacto">Si llegaste hasta acá y te gustaría que tú negocio tenga fotoproductos en 360° ¡No dudes en contactarme!</p>
+      </div>
+      <div className='redesContainer' >
+        <div className='redesContainer__box'>
+          <Icon className="icon" icon="uil:whatsapp"/>
+          <p>094 487 159</p>
+        </div>
+        <div className='redesContainer__box'>
+        <Icon className="icon" icon="uil:envelope" />
+          <p>360serrano@gmail.com</p>
+        </div>
+        <div className='redesContainer__box'>
+        <Icon className="icon" icon="uil:instagram" />
+          <p>serrano_360</p>
+        </div>
       </div>
       <div className='imgContainer'>
-        <img src={img1} alt='foto del produtco'/>
-      </div>
-      <div className='derechos'>
-        <p>
-          Todos los derechos reservados ©.
-          <br/>
-          Web realizada por Mateo, Santiago y Sophie.
-        </p>
+        <img src={img1} alt='foto del produtco' />
       </div>
     </div>
   )
