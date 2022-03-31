@@ -20,7 +20,6 @@ const Navbar = () => {
   const handleFalse = () => {
     setNavBar('false')
   }
-  console.log(navBar)
 
   return (
     <>
@@ -38,16 +37,16 @@ const Navbar = () => {
               <Leyenda>Fotografia de productos</Leyenda></Link>
             </ItemList>
             <ItemList>
-              <NavLink to="/fotos360" activeClassName='active' onClick={handleFalse}>Fotos 360°</NavLink>
+              <NavLink to="/fotos360" activeclassname='active' onClick={handleFalse}>Fotos 360°</NavLink>
             </ItemList>
             <ItemList>
-              <NavLink to="/sobremi" activeClassName='active' onClick={handleFalse}>Sobre mí</NavLink>
+              <NavLink to="/sobremi" activeclassname='active' onClick={handleFalse}>Sobre mí</NavLink>
             </ItemList>
             <ItemList>
-              <NavLink to="/comotrabajamos" activeClassName='active' onClick={handleFalse}>Como trabajo</NavLink>
+              <NavLink to="/comotrabajamos" activeclassname='active' onClick={handleFalse}>Como trabajo</NavLink>
             </ItemList>
             <ItemList>
-              <NavLink to="/contacto" activeClassName='active' onClick={handleFalse}>Contacto</NavLink>
+              <NavLink to="/contacto" activeclassname='active' onClick={handleFalse}>Contacto</NavLink>
             </ItemList>
           </List>
         </Menu>
