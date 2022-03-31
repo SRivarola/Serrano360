@@ -25,4 +25,10 @@
         margin-top: 0;
         border-radius: none !important;
     }
+    .links span {
+        cursor: pointer;
+        &:hover {
+            color: #D27F67;
+        }
+    }
 }

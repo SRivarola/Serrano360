@@ -1,17 +1,26 @@
 import React from 'react'
 import './Footer.scss'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function Footer() {
+  const handleMateo = (e) => {
+    if (e === 'Mateo') {
+      window.location.assign('https://www.linkedin.com/in/mateofernandezbanchi');
+    }
+    else if (e === 'Sophia') {
+      window.location.assign('https://www.linkedin.com/in/sofiaollerschmid/');
+    } else if (e === 'Santiago') {
+      window.location.assign('https://www.linkedin.com/in/santiago-rivarola-b6b500219/');
+    } else {
+      return;
+    } }
   return (
     <footer className='footer'>
           <p className='uno'>Todos los derechos reservados ©.</p>
           <p className='links'>
-            Diseño y desarrollo web por 
-            <Link to='https://www.linkedin.com/mateofernandezbanchi' target='_blank'> Mateo Fernández </Link> ,
-            <Link to='https://www.linkedin.com/in/santiago-rivarola-b6b500219/' target='_blank'> Santiago Rivarola </Link> y 
-            <Link to='https://www.linkedin.com/in/sofiaollerschmid/' target='_blank'> Sophia Oller Schmid </Link>
+          Web realizada por <span onClick={() => { handleMateo('Mateo') }}>Mateo Fernández</span> ,
+            <span onClick={() => { handleMateo('Santiago') }}> Santiago Rivarola</span>  y <span onClick={() => { handleMateo('Sophia') }}> Sophia Oller Schmid </span>
           </p>
     </footer>
   )
-}
+} 
