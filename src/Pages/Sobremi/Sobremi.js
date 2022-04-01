@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index.scss"
 import "./Sobremi.scss"
-import sobremi from '../../assets/sobremi/sobremi.jpeg'
+import sobremi from '../../assets/sobremi/sobremi.png'
 import taza from '../../assets/sobremi/taza.gif'
 import Footer from "../../components/Footer/Footer";
 
