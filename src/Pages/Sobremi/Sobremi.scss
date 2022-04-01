@@ -71,13 +71,18 @@
 }
 
 .section2Image {
-
     grid-area: imagen;
-    // display: flex; 
-    // overflow: hidden;
     margin: 0 auto;
-    // justify-content:center;
+    @media screen and (max-width:1124px) and (min-width:868px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
     img {
         width: 250px;
+        @media screen and (max-width:1124px) and (min-width:868px) {
+            width: 200px;
+        }
     }
 }
