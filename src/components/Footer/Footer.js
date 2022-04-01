@@ -18,7 +18,7 @@ export default function Footer() {
     <footer className='footer'>
           <p className='uno'>Todos los derechos reservados ©.</p>
           <p className='links'>
-          Web realizada por <span onClick={() => { handleRedirect('Mateo') }}>Mateo Fernández</span> ,
+          Diseño y desarrollo web por <span onClick={() => { handleRedirect('Mateo') }}>Mateo Fernández</span> ,
             <span onClick={() => { handleRedirect('Santiago') }}> Santiago Rivarola</span>  y <span onClick={() => { handleRedirect('Sophia') }}> Sophia Oller Schmid </span>
           </p>
     </footer>
