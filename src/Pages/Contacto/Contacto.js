@@ -3,6 +3,7 @@ import '../../index.scss'
 import './Contacto.scss'
 import '../ComoTrabajamos/ComoTrabajamos.scss'
 import { Icon } from '@iconify/react'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 import img1 from '../../assets/contacto/te.gif'
 import Footer from '../../components/Footer/Footer'
 
@@ -27,7 +28,9 @@ export default function Sobremi() {
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:envelope" />
-          <p>360serrano@gmail.com</p>
+          <CopyToClipboard>
+            <p>360serrano@gmail.com</p>
+          </CopyToClipboard>
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:instagram" />
