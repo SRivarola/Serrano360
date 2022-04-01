@@ -142,8 +142,15 @@ z-index:1;
 `
 
 const Correo = styled.p`
+    cursor: pointer;
+    &:hover{
+        color: #FFCBBA;
+    }
     ${props => props.valido === 'true' && css`
             color: green;
+            &:hover{
+                color: green;
+            }
         `} 
 `
 

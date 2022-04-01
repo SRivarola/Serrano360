@@ -19,9 +19,15 @@ export default function Sobremi() {
   }
 
   const handleRedirect = (e) => {
-    window.open('https://instagram.com/serrano_360?utm_medium=copy_link', '_blank');
+    if (e === 'instagram') {
+    window.open('https://instagram.com/serrano_360?utm_medium=copy_link', '_blank');}
+    else if (e === 'whatsapp') {
+      window.open('https://wa.me/+59894487159?text=¡Hola!%20me%20gustaría%20recibir%20más%20información%20sobre%20el%20servicio%20de%20fotos360°', '_blank');
+    } else {
+      return;
+    }
   }
-
+   
   const handleText = () => {
     if (copiado === 'false') {
       return '360serrano@gmail.com'
@@ -44,7 +50,7 @@ export default function Sobremi() {
       <div className='redesContainer' >
         <div className='redesContainer__box'>
           <Icon className="icon" icon="uil:whatsapp"/>
-          <p>094 487 159</p>
+          <p className='redes' onClick={ () => { handleRedirect('whatsapp') } }>094 487 159</p>
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:envelope" />
@@ -54,7 +60,7 @@ export default function Sobremi() {
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:instagram" />
-          <p className='instagram' onClick={ handleRedirect }>serrano_360</p>
+          <p className='redes' onClick={() => { handleRedirect('instagram') }}>serrano_360</p>
         </div>
       </div>
       <div className='imgContainer'>
