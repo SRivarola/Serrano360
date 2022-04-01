@@ -7,13 +7,16 @@ import img1 from '../../assets/contacto/te.gif'
 import Footer from '../../components/Footer/Footer'
 
 export default function Sobremi() {
+
+  const handleRedirect = (e) => {
+    window.open('https://instagram.com/serrano_360?utm_medium=copy_link', '_blank');
+  }
   return (
     <div className='container contacto'>
       <div className='titleContainer'>
         <h1>Contacto</h1>
         <span className='subrayado'></span>
       </div>
-
       <div className="parrafoContainer">
         <p className="presentacionContacto">Si llegaste hasta acá y te gustaría que tú negocio tenga fotoproductos en 360° ¡No dudes en contactarme!</p>
       </div>
@@ -28,7 +31,7 @@ export default function Sobremi() {
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:instagram" />
-          <p>serrano_360</p>
+          <p className='instagram' onClick={ handleRedirect }>serrano_360</p>
         </div>
       </div>
       <div className='imgContainer'>
