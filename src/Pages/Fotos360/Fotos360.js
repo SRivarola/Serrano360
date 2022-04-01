@@ -8,6 +8,7 @@ import img3 from '../../assets/fotos360/collar.jpg'
 import Footer from '../../components/Footer/Footer'
 
 export default function Fotos360() {
+  window.scrollTo(0,0);
 
   const navigate = useNavigate()
 

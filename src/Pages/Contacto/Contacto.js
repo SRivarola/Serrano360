@@ -8,6 +8,7 @@ import img1 from '../../assets/contacto/te.gif'
 import Footer from '../../components/Footer/Footer'
 
 export default function Sobremi() {
+  window.scrollTo(0,0);
 
   const handleRedirect = (e) => {
     window.open('https://instagram.com/serrano_360?utm_medium=copy_link', '_blank');

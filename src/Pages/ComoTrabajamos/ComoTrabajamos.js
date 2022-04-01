@@ -5,6 +5,9 @@ import { Icon } from '@iconify/react'
 import Footer from "../../components/Footer/Footer";
 
 const ComoTrabajamos = () => {
+
+  window.scrollTo(0,0);
+
   return (
 
     <div className="container containerPresentacion">
