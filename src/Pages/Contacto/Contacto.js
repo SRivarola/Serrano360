@@ -7,6 +7,7 @@ import img1 from '../../assets/contacto/te.gif'
 import Footer from '../../components/Footer/Footer'
 
 export default function Sobremi() {
+  window.scrollTo(0,0);
   return (
     <div className='container contacto'>
       <div className='titleContainer'>

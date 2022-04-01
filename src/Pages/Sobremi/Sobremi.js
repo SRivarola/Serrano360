@@ -6,7 +6,8 @@ import taza from '../../assets/sobremi/taza2.gif'
 import Footer from "../../components/Footer/Footer";
 
 const Sobremi = () => {
-  return <div className="container">
+  window.scrollTo(0,0);
+  return (<div className="container">
     <div className="trabajamosPresentacion">
       <div className='titleContainer'>
         <h1>Sobre mi</h1>
@@ -32,7 +33,7 @@ const Sobremi = () => {
       </div>
     </div>
     <Footer/>
-  </div>
+  </div>)
 };
 
 export default Sobremi;
