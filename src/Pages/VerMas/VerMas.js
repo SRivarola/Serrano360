@@ -1,6 +1,7 @@
 import '../../index.scss'
 import '../Fotos360/Fotos360.scss'
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import img1 from '../../assets/fotos360/lampara.jpg'
 import img2 from '../../assets/fotos360/florero antiguo.gif'
 import img3 from '../../assets/fotos360/collar.jpg'
@@ -15,9 +16,15 @@ import vermas9 from '../../assets/vermas/porcelana.gif'
 import vermas10 from '../../assets/vermas/teteras.jpg'
 import vermas11 from '../../assets/vermas/luna.jpg'
 import vermas12 from '../../assets/vermas/perfume.gif'
-import Footer from '../../components/Footer/Footer'
 
 export default function VerMas() {
+
+  const navigate = useNavigate()
+
+  const handleOnclick = () => {
+    navigate('/fotos360')
+  }
+
   return (
     <>
         <div className='container fotos360'>
@@ -62,6 +69,9 @@ export default function VerMas() {
                 <img className='luna' src={vermas11} alt='foto del producto'/>
                 <img className='perfume' src={vermas12} alt='foto del producto'/>
             </div>
+          <div className='btn-container'>
+            <button type='button' onClick={handleOnclick} >Volver</button>
+          </div>
         </div>
       </>
   )
