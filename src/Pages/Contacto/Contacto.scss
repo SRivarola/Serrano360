@@ -23,8 +23,11 @@
             }
         }
     }
-    .instagram{
+    .redes{
         cursor: pointer;
+        &:hover {
+            color: #D27F67;
+        }
     }
   
 
