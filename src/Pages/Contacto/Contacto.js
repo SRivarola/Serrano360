@@ -27,16 +27,6 @@ export default function Sobremi() {
       return;
     }
   }
-   
-  const handleText = () => {
-    if (copiado === 'false') {
-      return '360serrano@gmail.com'
-    } else if (copiado === 'true') {
-      return 'copiado al portapapeles'
-    }
-  }
-
-  console.log(copiado)
 
   return (
     <div className='container contacto'>
@@ -55,7 +45,13 @@ export default function Sobremi() {
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:envelope" />
           <CopyToClipboard text='360serrano@gmail.com'>
-            <Correo valido={copiado} onClick={ handleState }>{handleText()}</Correo>
+            {
+              copiado === 'false'?
+                <Correo valido={copiado} onClick={ handleState }>360serrano@gmail.com</Correo>
+              :
+                <Correo valido={copiado} onClick={ handleState }>copiado al portapapeles</Correo>
+
+            }
           </CopyToClipboard>
         </div>
         <div className='redesContainer__box'>
