@@ -1,8 +1,8 @@
 import React from "react";
 import "../../index.scss"
 import "./Sobremi.scss"
-import sobremi from '../../assets/sobremi/sobremi.jpeg'
-import taza from '../../assets/sobremi/taza.gif'
+import sobremi from '../../assets/sobremi/sobremi.png'
+import taza from '../../assets/sobremi/taza2.gif'
 import Footer from "../../components/Footer/Footer";
 
 const Sobremi = () => {
