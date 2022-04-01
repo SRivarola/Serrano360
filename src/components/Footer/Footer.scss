@@ -22,8 +22,9 @@
         font-size: 14px;
     }
     @media screen and (max-width:768px) {
-        margin-top: 0;
+        margin-top: 0 !important;
         border-radius: none !important;
+        height: 75px !important;
     }
     .links span {
         cursor: pointer;
