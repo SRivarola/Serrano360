@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../../index.scss'
 import './Contacto.scss'
 import '../ComoTrabajamos/ComoTrabajamos.scss'
@@ -6,13 +6,32 @@ import { Icon } from '@iconify/react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import img1 from '../../assets/contacto/te.gif'
 import Footer from '../../components/Footer/Footer'
+import { Correo } from '../../components/Navbar/NavbarStyled'
 
 export default function Sobremi() {
   window.scrollTo(0,0);
 
+  const [copiado, setCopiado] = useState('false')
+
+  const handleState = () => {
+    setCopiado('true');
+    setTimeout(() => {setCopiado('false')}, 1000)
+  }
+
   const handleRedirect = (e) => {
     window.open('https://instagram.com/serrano_360?utm_medium=copy_link', '_blank');
   }
+
+  const handleText = () => {
+    if (copiado === 'false') {
+      return '360serrano@gmail.com'
+    } else if (copiado === 'true') {
+      return 'copiado al portapapeles'
+    }
+  }
+
+  console.log(copiado)
+
   return (
     <div className='container contacto'>
       <div className='titleContainer'>
@@ -29,8 +48,8 @@ export default function Sobremi() {
         </div>
         <div className='redesContainer__box'>
         <Icon className="icon" icon="uil:envelope" />
-          <CopyToClipboard>
-            <p>360serrano@gmail.com</p>
+          <CopyToClipboard text='360serrano@gmail.com'>
+            <Correo valido={copiado} onClick={ handleState }>{handleText()}</Correo>
           </CopyToClipboard>
         </div>
         <div className='redesContainer__box'>

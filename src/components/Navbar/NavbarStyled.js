@@ -141,6 +141,12 @@ z-index:1;
 }
 `
 
+const Correo = styled.p`
+    ${props => props.valido === 'true' && css`
+            color: green;
+        `} 
+`
+
 export {
     ToggleContainer,
     BarraMenu,
@@ -150,5 +156,6 @@ export {
     ItemList,
     Leyenda,
     Transparencia,
-    Border
+    Border,
+    Correo
 }
